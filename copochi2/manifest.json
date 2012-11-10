@@ -1,8 +1,11 @@
 {
+	"manifest_version": 2,
 	"name": "CheckoutPochi2",
 	"version": "1.0",
 	"description": "pochi pochi google checkout",
-	"background_page" : "background.html",
+	"background": {
+		"page": "background.html"
+	},
 	"content_scripts": [
 		{
 			"matches": ["https://checkout.google.com/sell/orders*"],
